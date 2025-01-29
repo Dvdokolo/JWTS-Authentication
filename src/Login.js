@@ -18,7 +18,7 @@ function Login() {
       }, 30000); // Token expires after 30 seconds
       navigate('/dashboard');
     } else {
-      alert('Invalid credentials');
+      alert('Wrong Username or Password');
     }
   };
 
